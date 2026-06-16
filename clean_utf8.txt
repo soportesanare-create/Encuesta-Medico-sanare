@@ -1,0 +1,42 @@
+﻿
+
+Necesito una encuesta
+1. Formato: Propongo realizar el envÃ­o de forma digital a travÃ©s de WhatsApp
+2. PuntuaciÃ³n y CodificaciÃ³n: Cada una de las cinco preguntas incluye cuatro opciones de respuesta: Excelente (2), Bueno (1.6), Regular (1.3) y Malo (1). Te solicito codificar las respuestas de manera que el servicio se evalÃºe en un rango del 5 al 10. Por ejemplo, si todas las respuestas son "Excelente", la calificaciÃ³n final deberÃ¡ ser 10.
+
+A continuaciÃ³n, detallo el contenido de la encuesta:
+
+ENCUESTA DE EVALUACIÃ“N DE SERVICIO Y SEGURIDAD EN INFUSIÃ“N
+
+Estimado(a) Dr.(a):
+
+En nuestra ClÃ­nica de InfusiÃ³n de Alta Especialidad, la tranquilidad y seguridad de sus pacientes son nuestra mÃ¡xima prioridad. Con el fin de mantener los mÃ¡s altos estÃ¡ndares internacionales de calidad y fortalecer nuestra alianza estratÃ©gica, le solicitamos responder esta breve encuesta de cinco preguntas. Sus comentarios nos permitirÃ¡n optimizar continuamente nuestra operaciÃ³n.
+
+1. Experiencia y Confort del Paciente
+Â¿CÃ³mo califica la experiencia integral, infraestructura y el trato humano que reciben sus pacientes por parte de nuestro personal?
+
+- Excelente / Bueno / Regular / Malo
+
+2. Seguridad en la MedicaciÃ³n y Doble VerificaciÃ³n
+Para garantizar la mÃ¡xima seguridad en fÃ¡rmacos de alto riesgo, Â¿cÃ³mo califica el proceso de doble verificaciÃ³n cruzada de la prescripciÃ³n entre el mÃ©dico tratante y el mÃ©dico de sala?
+
+- Excelente / Bueno / Regular / Malo
+
+3. ComunicaciÃ³n Efectiva e IntegraciÃ³n
+Â¿CÃ³mo califica la claridad y efectividad de los canales de comunicaciÃ³n que nuestro personal mantiene con usted para reportar el estatus de la infusiÃ³n de su paciente?
+
+- Excelente / Bueno / Regular / Malo
+
+4. GestiÃ³n de Riesgos y Respuesta ante Eventos Adversos (EN CASO DE HABER PRESENTADO UN EVENTO).
+Â¿CÃ³mo califica la capacidad tÃ©cnica y velocidad de respuesta de nuestro personal para prevenir y manejar cualquier reacciÃ³n adversa asociada a la infusiÃ³n?
+
+- Excelente / Bueno / Regular / Malo
+
+5. Propuesta de Valor Comercial y Socio EstratÃ©gico
+Considerando la puntualidad, la agilidad de los reportes y la seguridad brindada, Â¿cÃ³mo califica a nuestra clÃ­nica como socio operativo para su prÃ¡ctica mÃ©dica privada?
+
+- Excelente / Bueno / Regular / Malo
+
+
+
+
