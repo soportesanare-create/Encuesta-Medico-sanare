@@ -17,6 +17,9 @@ document.addEventListener('DOMContentLoaded', () => {
     const closeModalBtn = document.getElementById('closeModal');
     const finalScoreEl = document.getElementById('finalScore');
     const submitBtn = form.querySelector('.btn-submit');
+    const btnWhatsappModal = document.getElementById('btnWhatsappModal');
+
+    let currentWhatsappUrl = "";
 
     form.addEventListener('submit', async (e) => {
         e.preventDefault();
@@ -57,18 +60,18 @@ document.addEventListener('DOMContentLoaded', () => {
             // Mostrar puntuación en el modal
             finalScoreEl.textContent = totalScore;
 
-            // Mostrar modal
-            modal.classList.remove('hidden');
-
             // Formatear mensaje para WhatsApp
             const phoneNumber = "525669998773";
             const message = `*Nueva Evaluación de Servicio y Seguridad*%0A%0A*Médico:* ${doctorName}%0A*Calificación Final:* ${totalScore}/10%0A%0A_Enviado desde el portal de encuestas Sanare._`;
-            const whatsappUrl = `https://wa.me/${phoneNumber}?text=${message}`;
-            
-            // Abrir WhatsApp en una nueva pestaña
+            currentWhatsappUrl = `https://wa.me/${phoneNumber}?text=${message}`;
+
+            // Mostrar modal
+            modal.classList.remove('hidden');
+
+            // Intento de redirección automática segura para móviles
             setTimeout(() => {
-                window.open(whatsappUrl, '_blank');
-            }, 1500);
+                window.location.href = currentWhatsappUrl;
+            }, 2500);
 
         } catch (error) {
             console.error("Error en la ejecución de la encuesta: ", error);
@@ -77,6 +80,12 @@ document.addEventListener('DOMContentLoaded', () => {
             // Restaurar el botón
             submitBtn.disabled = false;
             submitBtn.querySelector('span').textContent = 'Enviar Resultados';
+        }
+    });
+
+    btnWhatsappModal.addEventListener('click', () => {
+        if(currentWhatsappUrl) {
+            window.location.href = currentWhatsappUrl;
         }
     });
 
